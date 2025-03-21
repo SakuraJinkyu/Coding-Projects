@@ -1,0 +1,207 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(3, 3, 3);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin: 0;
+    padding: 0;
+}
+
+/* index.html */
+#index-body {
+    display:flex;
+}
+
+#main-nav {
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    width: 200px;
+    background-color: rgb(20, 20, 20);
+    border: 2px dashed rgb(255, 255, 255);
+    padding: 10px;
+}
+
+#main-nav li {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+
+#main-nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    display: block;
+    border: 2px solid transparent;
+}
+
+#main-nav a:hover {
+    color: rgb(135, 187, 255);
+}
+
+header img.derby {
+    width: 100%;
+    max-width: 100vw;
+    height: 400px;
+    margin: 20px 20px;
+    display: block;
+}
+
+div h1 {
+    margin: 20px 20px;
+}
+
+#index-section {
+    margin: 600px 250px;
+    position: absolute;
+}
+
+#index-aside {
+    padding-top: 650px;
+    padding-right: 20px;
+}
+
+#index-aside h4 p {
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Overhead Navigation */
+#overhead-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: rgb(20, 20, 20);
+    border: 2px dashed rgb(255, 255, 255);
+}
+
+#overhead-nav li {
+    margin-right: 20px;
+}
+
+#overhead-nav a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 10px;
+}
+
+#overhead-nav a:hover {
+    color: rgb(135, 187, 255);
+}
+
+
+/* capital.html */
+
+#frankfort-img {
+    height: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+    border: 5px solid rgb(255, 255, 255);
+}
+
+/* Capital Section */
+
+.capital-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 100px;
+    padding: 10px;
+}
+
+.capital-section ul {
+    width: 60%;
+    margin: 0;
+    padding: 12px;
+}
+
+.capital-section ul li {
+    margin-bottom: 10px;
+}
+
+/* Aside Section */
+#capitol-aside {
+    width: 35%;
+    margin: 20px 0;
+    padding-top: 10px;
+    float:right;
+    position:relative;
+}
+
+#aside-img {
+    width: 100%;
+    height: 200px;
+    float: right;
+    margin: -250px 100px;
+}
+
+#capitol-h4 {
+    margin: 10px;
+    margin: -40px 50px;
+}
+
+aside a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+aside a:hover {
+    color: rgb(0, 56, 238);
+}
+
+/* louisville.html */
+
+table {
+    margin: -200px -80px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+th {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+td {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* lexington.html */
+
+#lexington-aside {
+    width: 35%;
+    margin: -200px 0;
+    padding-top: 10px;
+    float:right;
+    position:relative;
+}
+
+/* form.html */
+form {
+    display: flex;
+    flex-direction: column;
+    height: 40vw;
+    width: 200px;
+    padding: 10vw 100vh;
+}
+
+label {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 30px;
+    display: block;
+    border: 2px solid rgb(0, 110, 255);
+    text-align: center;
+}
+
+input {
+    background-color: rgb(77, 41, 41);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
