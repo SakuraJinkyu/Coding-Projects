@@ -1,1 +1,1 @@
-This was my first full-fledged project for school using HTML, CSS, and JavaScript. 
+I've attached all the school projects I have worked on, including codes using HTML, CSS, JavaScript, and Angular.
