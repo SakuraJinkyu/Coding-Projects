@@ -1,0 +1,71 @@
+.map-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+#svg-map {
+  flex: 2;
+  width: 70%;
+  height: auto;
+  margin-right: 20px;
+}
+
+/* Country information box */
+.country-details {
+  flex: 1;
+  max-width: 30%;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.country-details h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.country-details p {
+  margin: 5px 0;
+}
+
+path {
+  cursor: pointer;
+}
+
+path:hover {
+  fill: lightblue;
+}
+
+/* Media query for screens larger than 1200px */
+@media (min-width: 1200px) {
+  #svg-map {
+    width: 60%;
+  }
+  .country-details {
+    max-width: 35%;
+  }
+}
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .map-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #svg-map {
+    width: 100%;
+    margin-right: 0;
+  }
+  .country-details {
+    width: 100%;
+    max-width: none;
+    margin-top: 20px;
+  }
+}
